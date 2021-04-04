@@ -20,17 +20,20 @@ pip install -m requirements.txt
 pip install -m requirements.txt
 ```
 
-## Usage
+## Data Sets
 
+The aggregated provincial data sets:
 ```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+China_Exports_by_Provinces_Oct_2020.csv
+China_Imports_by_provinces_oct_2020.csv
 ```
 
-## Data Sets
+Guongdong Case Study Data sets:
+```python
+Guangdong_province_export_trade_data_destinations_2019
+Guangdong_province_import_trade_data_origins_2019.csv
+Guangdong_Provincial_Trade_Data_Export_Items_2019.csv
+```
 
 
 ## License
