@@ -2,6 +2,8 @@
 
 Chinese provinces are integrated with the world economy by different levels. How can we measure the levels of economic integration (with world economy) at the province level?
 
+## Main Report
+https://docs.google.com/document/d/1P0PSdpVfT-fdNCnGRbRM-VHnRZuqxe05xxmQAudsBc4/edit?usp=sharing
 ## Set Up
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the data project environment.
