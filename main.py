@@ -1,5 +1,12 @@
 import pandas as pd
-''' Insert copied CSV file path in pd.read '''
+''' 
+Author Varun D. Sharma
+Main code for poli data science project working with Chinese trade data.
+
+Follow documentation as follows: 
+
+Insert copied CSV file path in pd.read 
+'''
 # df = pd.read_csv (r'Path where the CSV file is stored\File name.csv')
 df = pd.read_csv(r'C:\Users\Varun\Documents\ubc-poli379-dataproject\China_aggregate_provincial_trade_data\China_Exports_by_Provinces_Oct_2020.csv') 
 print(df)
@@ -39,7 +46,7 @@ def main_statistics():
     median1
     std1
     var1
-
+    return main_statistics()
 # block 2 - group by
 
 ''' replace Country with Subnat Geography if working with the aggregated data sets '''
@@ -60,3 +67,18 @@ print ('Var of Trade Values: ' + str(var1))
 # print block 2
 print ('Sum of values, grouped by the Country: ' + str(groupby_sum1))
 print ('Count of values, grouped by the Country: ' + str(groupby_count1))
+
+def data_stats_output():
+    print ('Mean Trade Value: ' + str(mean1))
+    print ('Sum of Trade Values: ' + str(sum1))
+    print ('Max Trade Value: ' + str(max1))
+    print ('Min Trade Value: ' + str(min1))
+    print ('Count of Trade Values: ' + str(count1))
+    print ('Median Trade Value: ' + str(median1))
+    print ('Std of Trade Values: ' + str(std1))
+    print ('Var of Trade Values: ' + str(var1))
+
+    # print block 2
+    print ('Sum of values, grouped by the Country: ' + str(groupby_sum1))
+    print ('Count of values, grouped by the Country: ' + str(groupby_count1))
+    return data_stats_output()
